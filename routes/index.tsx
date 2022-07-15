@@ -15,6 +15,11 @@ export default function Home() {
         file, and refresh.
       </p>
       <Counter start={3} />
+        <a href='/about'>About</a>
+        <br/>
+        <a href='/search'>Search</a>
+        <br/>
+        <a href='/github/sullivantobias'>github/sullivantobias</a>
     </div>
   );
 }
